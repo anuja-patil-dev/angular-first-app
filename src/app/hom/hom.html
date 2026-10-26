@@ -1,0 +1,9 @@
+<p>home works!</p> 
+
+@if (login) { 
+  <p>Account is logged in</p> 
+  <button (click)="login = false">Logout</button> 
+} @else { 
+  <p>Account is logged out</p> 
+  <button (click)="login = true">Login</button> 
+}
